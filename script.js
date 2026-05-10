@@ -1,6 +1,7 @@
 let timer;
 let left = 0;
 function moveR(el) {
+  stop();
   const blueBlock = document.getElementById(el);
   function go() {
     if (left < 350) {
